@@ -5,17 +5,18 @@ import Main from './components/Main.js';
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
+    <div>
     <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
+        <Header className="header-color" title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
             <Navigation>
                 <a href="/aboutme">About Me</a>
                 <a href="/projects">Projects</a>
                 <a href="/resume">Resume</a>
                 <a href="/contact">Contact Me</a>
+             
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Menu" >
             <Navigation>
                 <a href="/aboutme">About Me</a>
                 <a href="/projects">Projects</a>
