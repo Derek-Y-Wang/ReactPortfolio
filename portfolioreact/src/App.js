@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
+import {Layout, Header, Navigation, Content} from 'react-mdl'
 import Main from './components/Main.js';
 
 function App() {
@@ -16,14 +16,7 @@ function App() {
              
             </Navigation>
         </Header>
-        <Drawer title="Menu" >
-            <Navigation>
-                <a href="/aboutme">About Me</a>
-                <a href="/projects">Projects</a>
-                <a href="/resume">Resume</a>
-                <a href="/contact">Contact Me</a>
-            </Navigation>
-        </Drawer>
+        
         <Content>
             <div className="page-content"/>
             <Main />

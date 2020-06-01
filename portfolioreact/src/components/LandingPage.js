@@ -12,9 +12,9 @@ class Landing extends Component {
                         alt="avatar"
                         className="avatar-img"/>
                         <div className="banner-text">
-                            <h1>Full Stack Web Dev</h1>
+                            <h1>SOME DEVELOPER</h1>
                         <hr />
-                        <p>HTML/CSS | BOOTSTRAP | JavaScript | React | Python</p>
+                        <p>STUFF | STUFF | STUFF | STUFF | STUFF</p>
 
                         <div className="social-links">
                             {/* Linkedin */}
