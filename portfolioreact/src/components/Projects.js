@@ -25,7 +25,7 @@ class Projects extends Component {
                                 Mauris sagittis pellentesque lacus eleifend lacinia...
                             </CardText>
                             <CardActions border>
-                                <Button colored>GitHub</Button>
+                                <Button colored><a href="https://www.google.com/">GitHub</a></Button>
                                 <Button colored>Demo</Button>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>
