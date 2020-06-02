@@ -65,9 +65,8 @@
 
 .projects-grid{
   display: flex;
-  padding: 15px
-  
-  ;
+  padding: 15px;
+  position: relative;
 }
 
 .contact-body{
@@ -109,5 +108,11 @@
 .contact-list i{
   font-size: 50px;
   padding-right: 3rem;
-  
+  padding-top: 5px;
+}
+
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding:2em;
 }
