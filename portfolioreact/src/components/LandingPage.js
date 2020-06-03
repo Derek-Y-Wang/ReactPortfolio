@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
+import HeadShot from './img/placeHolder.png';
 
 class Landing extends Component {
     render(){
@@ -7,14 +8,13 @@ class Landing extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src='img/placeHolder.png'
+                        <img shadow={5} src={HeadShot}
                         alt="avatar"
                         className="avatar-img"/>
                         <div className="banner-text">
-                            <h1>SOME DEVELOPER</h1>
+                            <h1>DEVELOPER</h1>
                         <hr />
-                        <p>STUFF | STUFF | STUFF | STUFF | STUFF</p>
-
+                        <p>Python | Java | HTML/CSS | React | STUFF</p>
                         <div className="social-links">
                             {/* Linkedin */}
                             <a href="https://www.linkedin.com/in/derek-wang-3bb54a19b/" rel="noopener noreferrer" target="_blank">

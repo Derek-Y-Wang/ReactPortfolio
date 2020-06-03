@@ -7,12 +7,13 @@ function App() {
   return (
     <div>
     <Layout fixedHeader>
-        <Header className="header-color" title={<a href="/" style={{color:"white", textDecoration: "none"}}>Home</a>}>
+        <Header className="header-color" title={<a href="/" 
+        style={{color:"white", textDecoration: "none", fontSize:'20px'}}>Home</a>}>
             <Navigation>
                 <a href="/aboutme">About Me</a>
                 <a href="/projects">Projects</a>
                 <a href="/resume">Resume</a>
-                <a href="/contact">Contact Me</a>
+                <a href="/contact">Contact</a>
              
             </Navigation>
         </Header>

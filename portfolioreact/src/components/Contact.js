@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
-
+import HeadShot from './img/placeHolder.png'
 
 
 class Contacts extends Component {
@@ -11,7 +11,7 @@ class Contacts extends Component {
                     <Cell col={6}>
                         <h2>Derek Wang</h2>
                         <img 
-                            src="https://cdn2.iconfinder.com/data/icons/avatar-2/$12/Fred_man-512.png"
+                            src={HeadShot}
                             alt="avatar"
                             style={{height: '250px'}}
                         />
@@ -23,20 +23,20 @@ class Contacts extends Component {
                         <h2>Contact Me</h2>
                         <hr />
                         <div className="contact-list">
-                        <List style={{width: '300px'}}>
+                        <List style={{width: '400px'}}>
                         <ListItem >
                             <ListItemContent style={{fontSize: '25px', fontFamily: "Anton"}}>
-                                <i className="fa fa-phone-square" aria-hidden="true"/>
-                                (451) 456 456
+                                <i className="fa fa-phone-square" aria-hidden="true" style={{paddingRight:'10px'}}/>
+                                (416)-825-6591
                             </ListItemContent>
                         </ListItem>
                         <ListItem >
                             <ListItemContent style={{fontSize: '25px', fontFamily: "Anton", position: "fixed"}}>
-                                <i className="fa fa-envelope" aria-hidden="true"/> 
+                                <i className="fa fa-envelope" aria-hidden="true" style={{paddingRight:'10px'}}/> 
                                 wang.y.derek@gmail.com
                             </ListItemContent>
                         </ListItem>
-                       
+
                         </List> 
                         </div>                       
                     </Cell>

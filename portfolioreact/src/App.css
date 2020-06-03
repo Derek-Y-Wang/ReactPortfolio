@@ -19,20 +19,21 @@
 .avatar-img{
   height: 250px;
   padding-top: 10%;
-  border-radius: 30%;
+  /* width: 200px; */
 }
 
 .banner-text{
   background-color: black;
   opacity: 0.8;
-  width: 75%;
+  width: 55%;
   margin: auto;
   border-radius: 10px;
 
 }
 
 .banner-text h1{
-  font-size: 66px;
+  padding-top: 25px;
+  font-size: 60px;
   font-weight: bold;
   color:white;
 }
@@ -51,7 +52,7 @@
 
 .social-links{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 50%;
   margin: auto;
 
@@ -71,12 +72,12 @@
 
 .contact-body{
   margin: auto;
-  
   position: fixed;
   width: 100%;
   height: 100%;
-  justify-content: center;
+  justify-content: left;
   padding-top: 2em;
+  padding-right: 5px;
 
 }
 
@@ -107,7 +108,7 @@
 
 .contact-list i{
   font-size: 50px;
-  padding-right: 3rem;
+  padding-left: 3em;
   padding-top: 5px;
 }
 
@@ -115,4 +116,8 @@
   background: #27221F;
   color: white;
   padding:2em;
+}
+
+.resume-left-col{
+  padding-left: 7em;
 }
