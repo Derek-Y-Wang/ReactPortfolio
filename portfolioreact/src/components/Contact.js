@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
-import HeadShot from './img/placeHolder.png'
+import avatar from './img/myAvatar.png';
 
 
 class Contacts extends Component {
@@ -11,9 +11,9 @@ class Contacts extends Component {
                     <Cell col={6}>
                         <h2>Derek Wang</h2>
                         <img 
-                            src={HeadShot}
+                            src={avatar}
                             alt="avatar"
-                            style={{height: '250px'}}
+                            style={{height: '250px', border:'1px', borderRadius: '10%'}}
                         />
                         <p style={{width:"75%", margin:"auto", paddingTop: "1em"}}> Random Text</p>
                     </Cell>

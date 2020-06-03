@@ -7,7 +7,15 @@ class Skills extends Component {
         <Grid>
             <Cell col={12}>
                 <div style={{display: 'flex'}}>
-                    <h4>Technologies</h4>
+                    <ul>
+                        <li>Proficient in Python, Java, C, HTML/CSS</li>
+                        <li>Experience working with Android Studio, 
+                            Tensorflow, Sci-kit Learn, and Unix Systems</li>
+                        <li>Well versed in algorithm design and complexity analysis 
+                            as well as object-oriented design and design patterns</li>
+                        <li>Experienced in development concepts such as version control,
+                             unit testing and Git</li>
+                    </ul>
                 </div>
             </Cell>
             
