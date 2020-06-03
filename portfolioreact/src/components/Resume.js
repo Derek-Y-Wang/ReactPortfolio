@@ -71,7 +71,7 @@ class Resume extends Component {
                         point2="Developed an android application called “E-Halo” using Android Studio and Adobe Illustrator in order to help modern day teenagers quit vaping"
                         point1="Incorporated Google Firebase to provide users with a real time database that can store personal user data"
                         />
-                        
+
                         <Experience
                         startYear="June, 2016"
                         endYear="August, 2019"
