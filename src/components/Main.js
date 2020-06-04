@@ -10,10 +10,10 @@ import Resume from './Resume.js';
 const Main = () => (
     <Switch>
         <Route exact path="/ReactPortfolio" component={LandingPage} />
-        <Route path="/ReactPortfolio/about" component={AboutMe} />
-        <Route path="/ReactPortfolio/projects" component={Projects} /> 
-        <Route path="/ReactPortfolio/resume" component={Resume} />
-        <Route path="/ReactPortfolio/contact" component={Contact} />
+        <Route path="/ReactPortfolio/AboutMe" component={AboutMe} />
+        <Route path="/ReactPortfolio/Projects" component={Projects} /> 
+        <Route path="/ReactPortfolio/Resume" component={Resume} />
+        <Route path="/ReactPortfolio/Contact" component={Contact} />
         
        
 
