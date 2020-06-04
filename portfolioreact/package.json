@@ -2,7 +2,7 @@
   "name": "portfolioreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://derek-y-wang.github.io/ReactPortfolio/",
+  "homepage": "https://derek-y-wang.github.io/ReactPortfolio/portfolioreact",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
