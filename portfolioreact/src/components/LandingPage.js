@@ -12,9 +12,9 @@ class Landing extends Component {
                         alt="avatar"
                         className="avatar-img"/>
                         <div className="banner-text">
-                            <h1>DEVELOPER</h1>
+                            <h1>Programmer / Student</h1>
                         <hr />
-                        <p>Python | Java | HTML/CSS | React | STUFF</p>
+                        <p>Python | Java | HTML/CSS | React | SQL</p>
                         <div className="social-links">
                             {/* Linkedin */}
                             <a href="https://www.linkedin.com/in/derek-wang-3bb54a19b/" rel="noopener noreferrer" target="_blank">

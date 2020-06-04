@@ -10,7 +10,7 @@ function App() {
         <Header className="header-color" title={<a href="/" 
         style={{color:"white", textDecoration: "none", fontSize:'20px'}}>Home</a>}>
             <Navigation>
-                <a href="/aboutme">About Me</a>
+                <a href="/aboutme">About</a>
                 <a href="/projects">Projects</a>
                 <a href="/resume">Resume</a>
                 <a href="/contact">Contact</a>
