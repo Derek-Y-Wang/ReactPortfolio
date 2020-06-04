@@ -7,13 +7,13 @@ function App() {
   return (
     <div>
     <Layout fixedHeader>
-        <Header className="header-color" title={<a href="/" 
+        <Header className="header-color" title={<a href="/ReactPortfolio" 
         style={{color:"white", textDecoration: "none", fontSize:'20px'}}>Home</a>}>
             <Navigation>
-                <a href="/aboutme">About</a>
-                <a href="/projects">Projects</a>
-                <a href="/resume">Resume</a>
-                <a href="/contact">Contact</a>
+                <a href="/ReactPortfolio/about">About</a>
+                <a href="/ReactPortfolio/projects">Projects</a>
+                <a href="/ReactPortfolio/resume">Resume</a>
+                <a href="/ReactPortfolio/contact">Contact</a>
              
             </Navigation>
         </Header>
