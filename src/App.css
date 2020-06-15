@@ -122,3 +122,24 @@
 .resume-left-col{
   padding-left: 7em;
 }
+
+.about-grid{
+  background: #bdc3c7;  /* fallback for old browsers */
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  
+}
+
+.about-text h1{
+  font-size: 20px;
+  position: fixed;
+  border: solid;
+  border-radius: 10%;
+  width: 50%;
+  background-color: gray;
+  padding: 1ex;
+}
+
